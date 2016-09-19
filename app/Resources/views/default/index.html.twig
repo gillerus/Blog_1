@@ -2,9 +2,13 @@
 
 {% block body %}
     <h1>Blog</h1>
-{% endblock %}
-
-{% block stylesheets %}
-
     
+    {% for post in posts %}
+        <div>
+            <h2>{{post.title}}</h2>
+            <p>{{post.lead}}</p>
+            <p>{{post.content}}</p>
+         
+        </div>
+    {%endfor%}
 {% endblock %}
