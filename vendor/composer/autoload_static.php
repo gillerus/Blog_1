@@ -37,13 +37,27 @@ class ComposerStaticInitfa3693cebf6315291294aeda4c213de0
         array (
             'Monolog\\' => 8,
         ),
+        'K' => 
+        array (
+            'Knp\\Bundle\\PaginatorBundle\\' => 27,
+        ),
+        'J' => 
+        array (
+            'JavierEguiluz\\Bundle\\EasyAdminBundle\\' => 37,
+        ),
         'I' => 
         array (
             'Incenteev\\ParameterHandler\\' => 27,
         ),
+        'F' => 
+        array (
+            'Faker\\' => 6,
+            'FOS\\UserBundle\\' => 15,
+        ),
         'D' => 
         array (
             'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Bundle\\FixturesBundle\\' => 31,
             'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 36,
             'Doctrine\\Bundle\\DoctrineBundle\\' => 31,
         ),
@@ -106,13 +120,33 @@ class ComposerStaticInitfa3693cebf6315291294aeda4c213de0
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'Knp\\Bundle\\PaginatorBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-paginator-bundle',
+        ),
+        'JavierEguiluz\\Bundle\\EasyAdminBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/javiereguiluz/easyadmin-bundle',
+        ),
         'Incenteev\\ParameterHandler\\' => 
         array (
             0 => __DIR__ . '/..' . '/incenteev/composer-parameter-handler',
         ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+        'FOS\\UserBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofsymfony/user-bundle',
+        ),
         'Doctrine\\Common\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Bundle\\FixturesBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/doctrine-fixtures-bundle',
         ),
         'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 
         array (
@@ -131,6 +165,10 @@ class ComposerStaticInitfa3693cebf6315291294aeda4c213de0
     public static $prefixesPsr0 = array (
         'T' => 
         array (
+            'Twig_Extensions_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/extensions/lib',
+            ),
             'Twig_' => 
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
@@ -157,6 +195,17 @@ class ComposerStaticInitfa3693cebf6315291294aeda4c213de0
             array (
                 0 => __DIR__ . '/..' . '/psr/log',
             ),
+            'Pagerfanta\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/src',
+            ),
+        ),
+        'K' => 
+        array (
+            'Knp\\Component' => 
+            array (
+                0 => __DIR__ . '/..' . '/knplabs/knp-components/src',
+            ),
         ),
         'D' => 
         array (
@@ -175,6 +224,10 @@ class ComposerStaticInitfa3693cebf6315291294aeda4c213de0
             'Doctrine\\Common\\Inflector\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
+            ),
+            'Doctrine\\Common\\DataFixtures' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/data-fixtures/lib',
             ),
             'Doctrine\\Common\\Collections\\' => 
             array (
